@@ -1,0 +1,89 @@
+{
+"projects":
+  [
+    {
+      "id":"1",
+      "project_name":"Random quote generator",
+      "description":"Designed for your motivational needs or thoughtful moments, this app generates a new random quote out of an array with altering background color everytime you click on a button or wait for a few seconds",
+      "technologies":[
+        "plain JavaScript",
+        "HTML"
+      ],
+      "live_link":"https://develooper-dan.github.io/random-quote-generator/",
+      "github_link":"https://github.com/Develooper-Dan/random-quote-generator",
+      "image_urls":[
+        "/static/images/Random Quotes 1.jpg",
+        "/static/images/Random Quotes 1 large.jpg",
+        "/static/images/Random Quotes 2.jpg"
+      ]
+    },
+    {
+      "id":"2",
+      "project_name":"List pagination and filtering",
+      "description":"This program takes a list of students for display on a web page while restricting the number of students which are displayed at the same time. The user can switch between the shown students via page links. There's also a search bar to dynamically filter for certain students.",
+      "technologies":[
+        "plain JavaScript",
+        "HTML"
+      ],
+      "live_link":"https://develooper-dan.github.io/list-pagination-and-filtering/",
+      "github_link":"https://github.com/Develooper-Dan/list-pagination-and-filtering",
+      "image_urls":[
+        "/static/images/List pagination 1.jpg",
+        "/static/images/List pagination 1 large.jpg",
+        "/static/images/List pagination 2.jpg"
+      ]
+    },
+    {
+      "id":"3",
+      "project_name":"Interactive form",
+      "description":"An entry form for a fictional JavaScript conference. It evaluates the users input dynamically and/or if he tries to submit the form, eventually preventing him from submitting invalid data. Each relevant section displays helpful error messages to create a good UX.",
+      "technologies":[
+        "JavaScript w/ jQuery",
+        "HTML",
+        "CSS"
+      ],
+      "live_link":"https://develooper-dan.github.io/interactive-form/",
+      "github_link":"https://github.com/Develooper-Dan/interactive-form",
+      "image_urls":[
+        "/static/images/Interactive form 1.jpg",
+        "/static/images/Interactive form 1 large.jpg",
+        "/static/images/Interactive form 2.jpg"
+      ]
+    },
+    {
+      "id":"4",
+      "project_name":"Phrase Hunter game",
+      "description":"A little web-based game where the player has to guess a random Metal-song by choosing single letters, eventually losing 'beer' for wrong guesses. If he runs out of beer before guessing the song, he loses the game. Fair enough.",
+      "technologies":[
+        "object-oriented JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link":"https://develooper-dan.github.io/phrase-hunter-game/",
+      "github_link":"https://github.com/Develooper-Dan/phrase-hunter-game",
+      "image_urls":[
+        "/static/images/Interactive form 1.jpg",
+        "/static/images/Interactive form 1 large.jpg",
+        "/static/images/Interactive form 2.jpg"
+      ]
+    },
+    {
+      "id":"5",
+      "project_name":"Public API request",
+      "description":"This little app uses asynchronous JavaScript to retrieve random data from a public API and then showcasing it in a gallery of employees/users/whatever. The user can click on one of the cards to get more detailed infos about the person which is then presented via a modal which pops up.",
+      "technologies":[
+        "asynchronous JavaScript w/ jQuery",
+        "JSON",
+        "HTML",
+        "CSS"
+      ],
+      "live_link":"https://develooper-dan.github.io/public-api-request/",
+      "github_link":"https://github.com/Develooper-Dan/public-api-request",
+      "image_urls":[
+        "/static/images/Public API request 1.jpg",
+        "/static/images/Public API request 1 large.jpg",
+        "/static/images/Public API request 2.jpg"
+      ]
+    }
+  ]
+}
