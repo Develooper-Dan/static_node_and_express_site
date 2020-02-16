@@ -12,8 +12,8 @@
       "live_link":"https://develooper-dan.github.io/random-quote-generator/",
       "github_link":"https://github.com/Develooper-Dan/random-quote-generator",
       "image_urls":[
+        "/static/images/Random Quotes main.jpg",
         "/static/images/Random Quotes 1.jpg",
-        "/static/images/Random Quotes 1 large.jpg",
         "/static/images/Random Quotes 2.jpg"
       ]
     },
@@ -28,8 +28,8 @@
       "live_link":"https://develooper-dan.github.io/list-pagination-and-filtering/",
       "github_link":"https://github.com/Develooper-Dan/list-pagination-and-filtering",
       "image_urls":[
+        "/static/images/List pagination main.jpg",
         "/static/images/List pagination 1.jpg",
-        "/static/images/List pagination 1 large.jpg",
         "/static/images/List pagination 2.jpg"
       ]
     },
@@ -45,8 +45,8 @@
       "live_link":"https://develooper-dan.github.io/interactive-form/",
       "github_link":"https://github.com/Develooper-Dan/interactive-form",
       "image_urls":[
+        "/static/images/Interactive form main.jpg",
         "/static/images/Interactive form 1.jpg",
-        "/static/images/Interactive form 1 large.jpg",
         "/static/images/Interactive form 2.jpg"
       ]
     },
@@ -62,9 +62,9 @@
       "live_link":"https://develooper-dan.github.io/phrase-hunter-game/",
       "github_link":"https://github.com/Develooper-Dan/phrase-hunter-game",
       "image_urls":[
-        "/static/images/Interactive form 1.jpg",
-        "/static/images/Interactive form 1 large.jpg",
-        "/static/images/Interactive form 2.jpg"
+        "/static/images/Phrase Hunter main.jpg",
+        "/static/images/Phrase Hunter 1.jpg",
+        "/static/images/Phrase Hunter 2.jpg"
       ]
     },
     {
@@ -80,8 +80,8 @@
       "live_link":"https://develooper-dan.github.io/public-api-request/",
       "github_link":"https://github.com/Develooper-Dan/public-api-request",
       "image_urls":[
+        "/static/images/Public API request main.jpg",
         "/static/images/Public API request 1.jpg",
-        "/static/images/Public API request 1 large.jpg",
         "/static/images/Public API request 2.jpg"
       ]
     }
