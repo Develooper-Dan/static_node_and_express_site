@@ -1,7 +1,26 @@
 
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+@font-face {
+    font-family: 'startrackregular';
+    src: url('../fonts/startrack-axyog-webfont.woff2') format('woff2'),
+         url('../fonts/startrack-axyog-webfont.woff') format('woff'),
+         url('../fonts/startrack-axyog-webfont.ttf') format('ttf');
 }
+
+body{
+  background-image: url("../images/home-office.jpg");
+  background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h6,li{
+  font-family: 'Merriweather', serif;
+  text-shadow: 2px 1px 2px #000;
+  color: #ffff;
+}
+
+  h1{
+  color: #20211f;
+  text-shadow: 2px 1px 2px #fff;
+  }
 
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -18,16 +37,15 @@ h1,h2,h3,h4,h5,p{
   }
 
   p{
-    font-size: 15px;
-    color: #666;
+    font-family: 'startrackregular', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 1px 2px #000;
+
   }
 
 .round{
   border-radius: 5px;
-}
-
-.text-light{
-  color: #666;
 }
 
 .button{
@@ -49,10 +67,10 @@ a:hover{
 .image{
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
   border: solid 4px #fefefe;
-  border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  border-radius: 10%;
+  box-shadow: 3px 2px 4px 6px rgb(17, 19, 19);
   line-height: 0;
 }
 
@@ -64,7 +82,7 @@ a:hover{
 }
 
   .portfolio-me p{
-    font-size: 14px;
+    font-size: 16px;
     color: #999;
   }
 
@@ -114,10 +132,15 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    box-shadow: 4px 2px 4px 6px rgb(17, 19, 19);
   }
 
   .portfolio-index a{
-    color: #222;
+    color: #ffff;
+    text-shadow: 2px 1px 2px #000;
+    margin-bottom: 2em;
+    margin-left: 2em;
+
   }
 
   .portfolio-index .cell{
@@ -142,7 +165,6 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
 }
 
 .portfolio-bio{
