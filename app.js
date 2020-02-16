@@ -14,10 +14,6 @@ app.use(function (req, res, next) {
 })
 
 app.use(function (err, req, res, next) {
-  // res.locals.status = res.status(err.status || 500);
-  // if (err.status >= 500){
-  //   res.locals.message = "There seems to be a problem with the server. Please try again later";
-  // }
   res.render("error", {err});
 })
 
