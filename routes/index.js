@@ -14,7 +14,7 @@ router.get("/about", (req, res) => {
 router.get("/project/:id", (req, res, next) => {
   const project = projects.find(project => project.id === req.params.id);
   if (project===undefined){
-    const err =  createError(418, "Don't go for the teapot...")
+    const err =  createError(418, "That's not what you are looking for...")
     next(err)
   } else{
   res.render("project", project)
