@@ -17,6 +17,7 @@ app.use(function (req, res, next) {
 })
 
 app.use(function (err, req, res, next) {
+  console.error(`${err.status}: ${err.message}`);
   res.render("error", {err});
 })
 
